@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Learning to learn</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+		<link rel="stylesheet" type="text/css" href="css/normalise.css">
+		<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+		<link rel="shortcut icon" type="image/png" href="img/flag_uk.png">
+	</head>
+	<body>
+		<div class="learning_container">
+			<div style="width: 40px; height: 15px; float: right; margin-left: 10px; position: fixed; left: 10px; top: 10px; z-index: 500;" onClick="changeOnUkr()">
+				<img src="img/flag_uk.png" style="width: 100%;">
+			</div>
+			<div style="width: 40px; height: 15px; float: right; margin-left: 10px; position: fixed; top: 10px; left: 60px; z-index: 500;" onClick="changeOnEng()">
+				<img src="img/flag_en.png" style="width: 100%;">
+			</div>
+			<div class="header_cont">
+				<div class="header">
+					<img src="img/Без назви-1.png" class="violet_spot">
+					<div class="shadow1"></div>
+					<div class="header_main">
+						<img src="img/logo.png" class="logo">
+						<div class="box_links">
+							<div class="first_box">
+								<a href="index.html" class="link link1">Main</a>
+								<a href="future-world.html" class="link link1">Future world</a>
+								<a href="" class="link link1">Study skills</a>
+							</div>
+							<div class="second_box">
+								<a href="learning.html" class="link">Learning to learn</a>
+								<a href="never_stop_learning.html" class="link">Never stop learning</a>
+								<a href="my_program.html" class="link last_link">My program</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="learning_content_container">
+				<div class="learning_main_text">
+					<p class="learning_content_text_heading" id="learning_heading">Learning to learn</p>
+					<p class="learning_content_text_p" id="learning_text1">‘Learning to learn’ is the ability to pursue and persist in learning, to organise one's own learning, including through effective management of time and information, both individually and in groups. This competence includes awareness of one's learning process and needs, identifying available opportunities, and the ability to overcome obstacles in order to learn successfully. This competence means gaining, processing and assimilating new knowledge and skills as well as seeking and making use of guidance. Learning to learn engages learners to build on prior learning and life experiences in order to use and apply knowledge and skills in a variety of contexts: at home, at work, in education and training. Motivation and confidience are crucial to an individual’s competence.</p>
+					<p class="learning_content_text_p" id="learning_text2">Finally, the report suggests that for the intentional learner “intellectual study connects to
+					personal life, formal education to work, and knowledge to social responsibility.” These sorts of
+					connections don’t develop on their own when one “becomes an adult.” They take deliberate
+					effort and continual reflection. When are you going to begin developing these kinds of
+					connections? How will you develop them? Why not start now?</p>
+				</div>
+				<div class="learning_main_pict"></div>
+			</div>
+			<div class="game_container">
+				<iframe src="https://learningapps.org/watch?v=ptewkkm7220" style="border:0px;width:80%;height:100%" webkitallowfullscreen="true" mozallowfullscreen="true" class="game"></iframe>
+			</div>
+			<div class="footer">
+				<p class="footer_text">Школа Комп'ютерної Майстерності, 2020</p>
+			</div>
+		</div>
+
+
+		<script>
+function changeOnUkr() {
+document.getElementById('learning_heading').innerHTML = "Вчимося вчитися"
+document.getElementById('learning_text1').innerHTML = "'Вміння вчитися' - це можливість продовжувати та наполегливо розвивати навичку навчання для того, щоб організовувати чиєсь власне вивчення, в тому числі шляхом ефективного управління часом та інформацією, як індивідуально, так і в групах. Це вміння включає в собі обізнаність в чиємусь навчальному процесі та потребах, розпізнавання всіх нагод, щоб долати труднощі для того, щоб успішно вчитися. Це вміння означає здобуття, обробку та засвоєння нових знань і навичок, так само як пошук та використання настанов. Навчання вчитися закликає 'учнів' спиратися на попередні вміння та досвід для того, щоб використовувати і застосовувати знання та вміння в різних ситуаціях: вдома, на роботі, на навчанні чи тренуванні. Мотивація та спокій мають вирішальне значення для цього вміння."
+document.getElementById('learning_text2').innerHTML = "Підсумовуючи, кажуть, що для учня інтелектуальний розвиток тісно пов'язаний з власним життям, формальний - з роботою, а знання - з соціальною відповідальністю. Ці типи зв'язків не розвиваються самі по собі, коли об'єкт стає дорослим. Вони проявляються в навмисних зусиллях та постійних роздумах. Коли ви збираєтеся почати розвивати ці навички? Як ви будете це робити? Чому б не почати просто зараз?" 
+
+
+}
+</script>
+<script>
+function changeOnEng() {
+document.getElementById('learning_heading').innerHTML = "Learning to learn"
+document.getElementById('learning_text1').innerHTML = "‘Learning to learn’ is the ability to pursue and persist in learning, to organise one's own learning, including through effective management of time and information, both individually and in groups. This competence includes awareness of one's learning process and needs, identifying available opportunities, and the ability to overcome obstacles in order to learn successfully. This competence means gaining, processing and assimilating new knowledge and skills as well as seeking and making use of guidance. Learning to learn engages learners to build on prior learning and life experiences in order to use and apply knowledge and skills in a variety of contexts: at home, at work, in education and training. Motivation and confidience are crucial to an individual’s competence."
+document.getElementById('learning_text2').innerHTML = "Finally, the report suggests that for the intentional learner “intellectual study connects to personal life, formal education to work, and knowledge to social responsibility.” These sorts of connections don’t develop on their own when one “becomes an adult.” They take deliberate effort and continual reflection. When are you going to begin developing these kinds of connections? How will you develop them? Why not start now?"
+}
+</script>
+	</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>My Own Oxford</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+		<link rel="stylesheet" type="text/css" href="css/normalise.css">
+		<link rel="stylesheet" type="text/css" href="animate.css">
+		<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+		<link rel="shortcut icon" type="image/png" href="img/flag_uk.png">
+		<script src="wow.min.js"></script>
+		<script>new WOW().init();</script>
+	</head>
+	<body>
+		<div class="container_main">
+			<div class="container-fluid">
+				<div style="width: 40px; height: 15px; float: right; margin-left: 10px; position: fixed; left: 10px; top: 10px; z-index: 500;" onClick="changeOnUkr()">
+					<img src="img/flag_uk.png" style="width: 100%;">
+				</div>
+				<div style="width: 40px; height: 15px; float: right; margin-left: 10px; position: fixed; top: 10px; left: 60px; z-index: 500;" onClick="changeOnEng()">
+					<img src="img/flag_en.png" style="width: 100%;">
+				</div>
+				<div class="header_cont header_margin">
+					<div class="header">
+						<img src="img/Без назви-1.png" class="violet_spot">
+						<div class="shadow1"></div>
+						<div class="header_main">
+							<img src="img/logo.png" class="logo">
+							<div class="box_links">
+								<div class="first_box">
+									<a href="index.html" class="link link1">Main</a>
+									<a href="future-world.html" class="link link1">Future world</a>
+									<a href="" class="link link1">Study skills</a>
+								</div>
+								<div class="second_box">
+									<a href="learning.html" class="link">Learning to learn</a>
+									<a href="never_stop_learning.html" class="link">Never stop learning</a>
+									<a href="my_program.html" class="link last_link">My program</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="content">
+					<div class="top_z" style=" width: 50%; height: 200px; padding-top: 50px;">
+					<span style="font-size:50px; font-weight: bold; line-height: 1.1; color: #4d0026;" id="zagl">My personal Oxford</span></div>
+					<p id="pidzagl" style="font-weight: bold; color: lightgrey; font-size: 17pt; float: left; margin-top: 25px;" class="index_text">Our goal is to analyze the society in which we live, <br>to see how intellectual it is. Can we educate ourselves in this society or <br>do we need a different kind of society? <br>Analyze yourself and your potential for self-study. Develop your own <br>self-study program that will be relevant not only for us <br>but also for others. What skills should a person have, including <br>his or her personality traits, so that he or she can learn?</p>
+					<a href="future-world.html" class="button_a"><div style="width: 150px; height: 55px; color: white; background: #b800e6; border-radius: 7px; padding-top: 7px; text-align: center; margin-top: 300px; font-weight: bold; font-size: 21pt; cursor: pointer;" id="begin" class="index_button"><p>Begin</p>
+					</div></a>
+				</div>
+				<div class="picture">
+					<img src="img/people.png" class="wow fadeIn" data-wow-duration='2s'; data-wow-delay='5s'; style="position: absolute;
+					left: 55%; top: 40%; width: 40%; z-index: 3;">
+					<img src="img/1book.png" class="wow fadeInRight" data-wow-delay='2s'; data-wow-duration='0.5s'; style="position: absolute;
+					left: 63%; top: 88.6%; width: 25.2%; z-index: 1;">
+					<img src="img/2book.png" class="wow fadeInLeft" data-wow-delay='2.5s'; data-wow-duration='0.5s'; style="position: absolute; z-index: 1;
+					left: 65%; top: 79.3%; width: 21.75%;">
+					<img src="img/3book.png" class="wow fadeInRight" data-wow-delay='3s'; data-wow-duration='0.5s'; style="position: absolute; z-index: 1;
+					left: 65.75%; top: 71.65%; width: 22%;">
+					<img src="img/4book.png" class="wow fadeInLeft" data-wow-delay='3.5s'; data-wow-duration='0.5s'; style="position: absolute; z-index: 1;
+					left: 68%; top: 64.8%; width: 21.75%;">
+					<img src="img/5book.png" class="wow fadeInRight" data-wow-delay='4s'; data-wow-duration='0.5s'; style="position: absolute ;z-index: 1;
+					left: 68%; top: 58%; width: 16.5%;">
+					<img src="img/6book.png" class="wow fadeInLeft" data-wow-delay='4.5s'; data-wow-duration='0.75s'; style="position: absolute; z-index: 1;
+					left: 65.5%; top: 51.05%; width: 20.2%;">
+					<img src="img/sun.png" class="wow bounceIn" data-wow-delay='7s' style="width: 10%; margin-top: 75px; margin-left: 75px; z-index: 1;">
+					<img src="img/back.png" class="wow fadeIn" data-wow-delay='1s'; data-wow-duration='1s'; style=" position: absolute; top: 45%; left: 63%; width: 37%; z-index: 0;">
+					<img src="img/cloud.png" class="wow fadeIn" data-wow-delay='7.25s' style="width: 10%; position: absolute; left: 85%; top: 51%; z-index: 10;">
+				</div>
+		</div>
+	</div>
+				<script>
+	function changeOnUkr() {
+	document.getElementById('zagl').innerHTML = "Мій персональний <br>Оксфорд"
+	document.getElementById('pidzagl').innerHTML = "Наша ціль роаналізувати суспільство в якому ми проживаємо, <br>побачити наскільки воно інтелектуальне. Чи можемо ми в даному <br>,суспільстві самонавчатися чи для цього нам потрібен інший <br>вид суспільства? Проаналізувати себе та свій потенціал стосовно <br>самонавчання. Розробити свою програму самонавчання, яка буде <br>актуальна не тільки для нас, а й для іншого. Якими навичками <br>повинна володіти людина в тому числі і <br>якостями особистості, щоб вона могла самонавчатися?"
+	document.getElementById('begin').innerHTML = "Почати"
+
+	}
+	</script>
+	<script>
+	function changeOnEng() {
+	document.getElementById('zagl').innerHTML = "My personal <br>Oxford"
+	document.getElementById('pidzagl').innerHTML = "Our goal is to analyze the society in which we live, <br>to see how intellectual it is. Can we educate ourselves in this society or <br>do we need a different kind of society? <br>Analyze yourself and your potential for self-study. Develop your own <br>self-study program that will be relevant not only for us <br>but also for others. What skills should a person have, including <br>his or her personality traits, so that he or she can learn"
+	document.getElementById('begin').innerHTML = "Begin"
+
+	}
+	</script>
+	</body>
+</html>
+</html>

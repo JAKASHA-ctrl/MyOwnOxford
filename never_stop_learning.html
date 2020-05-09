@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Never Stop Learning</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+		<link rel="stylesheet" type="text/css" href="css/normalise.css">
+		<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<link rel="shortcut icon" type="image/png" href="img/flag_uk.png">
+	</head>
+	<body>
+		<div class="never_container">
+			<div style="width: 40px; height: 15px; float: right; margin-left: 10px; position: fixed; left: 10px; top: 10px; z-index: 500;" onClick="changeOnUkr()">
+				<img src="img/flag_uk.png" style="width: 100%;">
+			</div>
+			<div style="width: 40px; height: 15px; float: right; margin-left: 10px; position: fixed; top: 10px; left: 60px; z-index: 500;" onClick="changeOnEng()">
+				<img src="img/flag_en.png" style="width: 100%;">
+			</div>
+			<div class="header_cont">
+				<div class="header">
+					<img src="img/Без назви-1.png" class="violet_spot">
+					<div class="shadow1"></div>
+					<div class="header_main">
+						<img src="img/logo.png" class="logo">
+						<div class="box_links">
+							<div class="first_box">
+								<a href="index.html" class="link link1 never_link">Main</a>
+								<a href="future-world.html" class="link link1 never_link">Future world</a>
+								<a href="" class="link link1 never_link">Study skills</a>
+							</div>
+							<div class="second_box">
+								<a href="learning.html" class="link never_link">Learning to learn</a>
+								<a href="never_stop_learning.html" class="link never_link">Never stop learning</a>
+								<a href="my_program.html" class="link last_link never_link">My program</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="never_content">
+				<div class="never_photo_cont">
+					<p class="never_content_text_heading" id="never_heading">Never stop learning</p>
+				</div>
+				<div class="never_text_cont">
+					<p class="never_content_text_p never_content_text_p_first" id="never_text1">Most people associate learning with formal education at school, college, university etc.  We are all told, from an early age, that we should ‘get a good education’.</p>
+					<p class="never_content_text_p" id="never_text2">Generally speaking it is true that a formal education and the resulting qualifications are important. Education may maximise our potential to find better, more satisfying jobs, earn more and, perhaps, become more successful in our chosen career.</p>
+					<p class="never_content_text_p"  id="never_text3">However, ‘schooling’ is only one type of learning. There are many other opportunities to further your knowledge and develop the skills you need throughout life.</p>
+					<p class="never_content_text_p"  id="never_text4">Knowledge can be acquired and skill-sets developed anywhere – learning is unavoidable and happens all the time. However, lifelong learning is about creating and maintaining a positive attitude to learning both for personal and professional development.</p>
+					<p class="never_content_text_p"></p>
+					<p class="never_content_text_p"></p>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-6">
+						<div class="embed-responsive embed-responsive-16by9">
+							<iframe src="https://www.youtube.com/embed/lMuRIwA6V3s" class="embed-responsive-item"></iframe>
+						</div>
+					</div>
+					<div class="col-6">
+						<div class="embed-responsive embed-responsive-16by9">
+							<iframe src="https://www.youtube.com/embed/MnbJjTbNx0Y" class="embed-responsive-item"></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer">
+				<p class="footer_text">Школа Комп'ютерної Майстерності, 2020</p>
+			</div>
+		</div>
+
+<script>
+function changeOnUkr() {
+document.getElementById('never_heading').innerHTML = "Вчіться завжди"
+document.getElementById('never_text1').innerHTML = "Більшість людей асоціюють навчання з школою, коледжем, університетом тощо. Ми всі кажемо, що з малого віку ми маємо добре вчитися."
+document.getElementById('never_text2').innerHTML = "В загальному - це правда, що формальне навчання та знання, які ви отримуєте завдяки ньому - важливі. Навчання покращує наш потенціал в пошуку кращої та приємнішої роботи, отримання більшої зарплати і можливо здобуття успіху у вибраній кар'єрі."
+document.getElementById('never_text3').innerHTML = "Проте відвідування школи - це лише один з типів навчання. Є багато інших можливостей для покращення знань та розвитку навичок, які будуть вам потрібні в житті."
+document.getElementById('never_text4').innerHTML = "Навчання можна отримати у будь якому місці, а знання здобуваються неминуче впродовж життя. Проте навчання впродовж життя - це створення і підтримка позитивного ставлення до навчання як для особистого, так і для професійного розвитку." 
+
+
+}
+</script>
+<script>
+function changeOnEng() {
+document.getElementById('never_heading').innerHTML = "Never stop learning"
+document.getElementById('never_text1').innerHTML = "Most people associate learning with formal education at school, college, university etc.  We are all told, from an early age, that we should ‘get a good education’."
+document.getElementById('never_text2').innerHTML = "Generally speaking it is true that a formal education and the resulting qualifications are important. Education may maximise our potential to find better, more satisfying jobs, earn more and, perhaps, become more successful in our chosen career."
+document.getElementById('never_text3').innerHTML = "However, ‘schooling’ is only one type of learning. There are many other opportunities to further your knowledge and develop the skills you need throughout life."
+document.getElementById('never_text4').innerHTML = "Knowledge can be acquired and skill-sets developed anywhere – learning is unavoidable and happens all the time. However, lifelong learning is about creating and maintaining a positive attitude to learning both for personal and professional development."
+}
+</script>
+
+
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	</body>
+</html>
