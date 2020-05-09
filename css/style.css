@@ -313,7 +313,7 @@ a:hover {
 	display: grid;
 	grid-template-columns: 100%;
 	grid-template-rows: 250px 700px max-content 150px;
-	grid-row-gap: 20px;
+	grid-row-gap: 40px;
 }
 .never_content{
 	z-index: 10;
