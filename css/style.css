@@ -1095,13 +1095,13 @@ a:hover {
 	/*phone*/
 
 	.learning_container{
-		grid-template-rows: 430px 1080px 600px 70px;
+		grid-template-rows: 430px 1100px 600px 70px;
 		grid-row-gap: 20px;
 	}
 	.learning_content_container{
 		display: grid;
 		grid-template-columns: 100%;
-		grid-template-rows: 630px 450px;
+		grid-template-rows: 650px 450px;
 	}
 	.learning_content_text_p{
 		font-size: 17px;
@@ -1133,7 +1133,7 @@ a:hover {
 
 	.never_container{
 		grid-template-columns: 100%;
-		grid-template-rows: max-content 1050px max-content 70px;
+		grid-template-rows: max-content 1080px max-content 70px;
 		grid-row-gap: 20px; 
 	}
 	.never_content_text_p{
@@ -1141,13 +1141,13 @@ a:hover {
 	}
 	.never_content{
 		grid-template-columns: 100%;
-		grid-template-rows: 350px 700px;
+		grid-template-rows: 350px 730px;
 	}
 	.never_text_cont{
 		padding: 15px;
 	}
 	.never_content_text_heading{
-		font-size: 33px;
+		font-size: 30px;
 	}
 
 
