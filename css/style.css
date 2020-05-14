@@ -672,7 +672,7 @@ a:hover {
 
 
 
-@media screen and (max-width: 425px) {
+@media screen and (min-width: 351px) and (max-width: 425px) {
 
 	/*INDEX*/
 
@@ -866,7 +866,7 @@ a:hover {
 	}
 	.never_content{
 		grid-template-columns: 100%;
-		grid-template-rows: 400px 500px;
+		grid-template-rows: 350px 550px;
 	}
 	.never_text_cont{
 		padding: 15px;
@@ -899,14 +899,295 @@ a:hover {
 		grid-template-columns: 100%;
 	}
 	.program_center{
-		width: 425px;
+		width: 100%;
 		grid-template-columns: 100%;
 		grid-template-rows: 120px repeat(5, 100px) 120px repeat(5, 100px);
 		justify-content: center;
 	}
 	.program_item{
-		margin-right: 30px;
-		margin-left: 30px;
+		margin-right: 15px;
+		margin-left: 15px;
+	}
+	.item_text{
+		font-size: 18px;
+	}
+	.name1{
+		grid-row: 1/2;
+	}
+	.program_item1{
+		grid-row: 2/3;
+	}
+	.program_item3{
+		grid-row: 3/4;
+	}
+	.program_item5{
+		grid-row: 4/5;
+	}
+	.program_item7{
+		grid-row: 5/6;
+	}
+	.program_item9{
+		grid-row: 6/7;
+	}
+	.name2{
+		grid-row: 7/8;
+	}
+	.program_item2{
+		grid-row: 8/9;
+	}
+	.program_item4{
+		grid-row: 9/10;
+	}
+	.program_item6{
+		grid-row: 10/11;
+	}
+	.program_item8{
+		grid-row: 11/12;
+	}
+	.program_item10{
+		grid-row: 12/13;
+	}
+}
+
+
+
+@media screen and (max-width: 350px) {
+	/*INDEX*/
+
+
+	.container_main{
+		grid-template-columns: 100%;
+	}
+	.container-fluid{
+		grid-template-rows: 430px 600px 450px;
+		grid-template-columns: 100%;
+	}
+	.picture{
+		grid-row: 3/4;
+		grid-column: 1/2;
+		width: 100%;
+		background-image: url(../img/books.png);
+		background-position: center;
+		background-size: 110%;
+		background-repeat: no-repeat;
+	}
+	.fadeIn{
+		display: none;
+	}
+	.fadeInRight{
+		display: none;
+	}
+	.fadeInLeft{
+		display: none;
+	}
+	.bounceIn{
+		display: none;
+	}
+	.button_a{
+		display: none;
+	}
+
+
+
+
+
+	.container1{
+		width: 100%;
+		grid-template-columns: 100%;
+		grid-template-rows: 430px 930px max-content 700px 70px;
+		grid-row-gap: 20px;
+	}
+	.violet_spot{
+		display: none;
+	}
+	.shadow{
+		height: 430px;
+ 	}
+	.header_cont{
+		background-color: #B4A0E8;
+		height: 430px;
+		grid-template-columns: 100%;
+		grid-template-rows: max-content;
+	}
+	.header_main{
+		height: 430px;
+		grid-template-columns: 100%;
+		grid-template-rows: repeat(3, max-content);
+	}
+	.header{
+		height: 430px;
+		width: 100%;
+	}
+	.link{
+		margin-left: 15px;
+		font-size: 25px;
+	}
+	.logo{
+		width: 250px;
+		margin-left: 15px;
+		margin-bottom: 20px;
+	}
+	.box_links{
+		height: 100%;
+		display: grid;
+		grid-template-columns: 100%;
+		grid-template-rows: repeat(2, max-content);
+		grid-row-gap: 20px;
+	}
+	.first_box{
+		grid-column: 1/2;
+		grid-row: 1/2;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: space-between;
+	}
+	.second_box{
+		grid-column: 1/2;
+		grid-row: 2/3;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: space-between;
+	}
+	.future_content_container{
+		grid-template-columns: 100%;
+		grid-template-rows: 530px 400px;
+	}
+	.form_container{
+		display: flex;
+		justify-content: center;
+	}
+	iframe{
+		width: 100%;
+		height: 700px;
+	}
+	.future_bottom_heading_center{
+		grid-template-columns: 100%;
+	}
+	.future_bottom_title{
+		font-size: 30px;
+		margin-left: 15px;
+	}
+	.future_pict{
+		width: 100%;
+	}
+	.future_content_text{
+		padding: 15px;
+	}
+	.future_content_text_heading{
+		font-size: 35px;
+	}
+	.future_content_text_p{
+		font-size: 17px;
+	}
+	.footer_text{
+		font-size: 15px;
+		margin-bottom: 0;
+	}
+
+
+
+
+
+
+	/*LEARNING TO LEARN */
+	/*phone*/
+
+	.learning_container{
+		grid-template-rows: 430px 1080px 600px 70px;
+		grid-row-gap: 20px;
+	}
+	.learning_content_container{
+		display: grid;
+		grid-template-columns: 100%;
+		grid-template-rows: 630px 450px;
+	}
+	.learning_content_text_p{
+		font-size: 17px;
+	}
+	.learning_content_text_heading{
+		font-size: 35px;
+	}
+	.learning_main_text{
+		padding: 15px;
+	}
+	.learning_main_pict{
+		width: 100%;
+	}
+	.game_container{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.game{
+		width: 100% !important;
+		height: 400px;
+	}
+
+
+
+	/*NEVER STOP LEaRNING*/
+	/*phone*/
+
+
+	.never_container{
+		grid-template-columns: 100%;
+		grid-template-rows: max-content 1050px max-content 70px;
+		grid-row-gap: 20px; 
+	}
+	.never_content_text_p{
+		font-size: 17px;
+	}
+	.never_content{
+		grid-template-columns: 100%;
+		grid-template-rows: 350px 700px;
+	}
+	.never_text_cont{
+		padding: 15px;
+	}
+	.never_content_text_heading{
+		font-size: 33px;
+	}
+
+
+
+
+	/*PROGRAM*/
+	/*phone*/
+
+	.program_container{
+		grid-template-rows: 430px max-content repeat(2, max-content) 70px;
+	}
+	.program_content{
+		grid-template-columns: 100%;
+		grid-template-rows: 500px max-content;
+	}
+	.program_photo_cont{
+		padding-left: 15px;
+	}
+	.program_content_text_p{
+		font-size: 17px;
+	}
+	.yura_program{
+		grid-template-columns: 100%;
+	}
+	.vitya_program{
+		display: grid;
+		grid-template-columns: 100%;
+	}
+	.program_center{
+		width: 100%;
+		grid-template-columns: 100%;
+		grid-template-rows: 120px repeat(5, 100px) 120px repeat(5, 100px);
+		justify-content: center;
+	}
+	.program_item{
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+	.program_name_text{
+		font-size: 30px;
 	}
 	.item_text{
 		font-size: 18px;
